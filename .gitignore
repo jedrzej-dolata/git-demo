@@ -1,6 +1,9 @@
 # no .log files
 *.log
 
+# no .db files
+*.db
+
 # but do track error.log, even though you're ignoring .log files above
 !error.log
 
@@ -9,6 +12,12 @@
 
 # ignore all files in the build/ directory
 build/
+
+# ignore all files in the target/ directory
+target/
+
+# ignore all files in the bin/ directory
+bin/
 
 # ignore doc/notes.txt, but not doc/server/arch.txt
 doc/*.txt
